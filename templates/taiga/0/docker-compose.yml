@@ -15,4 +15,4 @@ taigafront:
     ports:
         - "80:80"
     environment:
-        - "API_NAME=boot2docker"
+        - "API_NAME=${api_name}"

@@ -5,6 +5,12 @@
   uuid: taiga-0
   minimum_rancher_version: v0.51.0
   questions:
+    - variable: api_name
+      description: "The hostname to be used by the frontend to talk to the backend"
+      label: "API Name"
+      required: true
+      default: "boot2docker"
+      type: "string"
 
 
 taiga:
